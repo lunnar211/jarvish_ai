@@ -22,16 +22,24 @@ Clone the Repository:
 bash
 Copy code
 git clone https://github.com/lunnar211/jarvis-ai.git
+
 cd jarvis-ai
+
 Create and Activate Virtual Environment:
+
 bash
+
 Copy code
 python -m venv venv
+
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 Install Dependencies:
 bash
+
 Copy code
 pip install -r requirements.txt
+
 Download Additional Files (e.g., Model Weights, Dependencies):
 Ensure that the haarcascade_frontalface_default.xml file is available in the appropriate directory for face recognition.
 
